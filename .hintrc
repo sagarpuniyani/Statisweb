@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "scroll-behavior",
+          "text-align: -webkit-match-parent"
+        ]
+      }
+    ],
+    "no-inline-styles": "off"
+  }
+}
